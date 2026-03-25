@@ -1,14 +1,14 @@
 services:
-  mugdoc-docs:
+  mugdoc-docs-site-docs:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: mugdoc-docs
+    container_name: mugdoc-docs-site-docs
     restart: unless-stopped
     networks:
       - caddy_net
     labels:
-      caddy: mugdoc.reposito.rio.br
+      caddy: mugdoc-docs-site.reposito.rio.br
       caddy.reverse_proxy: "{{upstreams 3010}}"
       caddy.encode: "gzip"
     expose:

@@ -1,5 +1,5 @@
 ---
-title: "mugdoc"
+title: "mugdoc-docs-site"
 description: "Generate a documentation site from your project's README using Astro and Starlight."
 ---
 
