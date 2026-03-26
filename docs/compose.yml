@@ -9,10 +9,10 @@ services:
       - caddy_net
     labels:
       caddy: mugdoc-docs-site.reposito.rio.br
-      caddy.reverse_proxy: "{{upstreams 3010}}"
+      caddy.reverse_proxy: "{{upstreams 3013}}"
       caddy.encode: "gzip"
     expose:
-      - 3010
+      - 3013
 
 networks:
   caddy_net:

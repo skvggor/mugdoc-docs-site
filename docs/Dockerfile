@@ -17,6 +17,6 @@ RUN npm run build
 FROM caddy:2-alpine
 COPY --from=builder /app/dist /srv
 
-EXPOSE 3010
+EXPOSE 3013
 
-CMD ["caddy", "file-server", "--root", "/srv", "--listen", ":3010"]
+CMD ["caddy", "file-server", "--root", "/srv", "--listen", ":3013"]
