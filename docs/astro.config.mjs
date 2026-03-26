@@ -6,7 +6,7 @@ export default defineConfig({
   site: "https://mugdoc.reposito.rio.br",
   integrations: [
     starlight({
-      title: "mugdoc-docs-site",
+      title: "mugdoc",
       customCss: ["./src/styles/global.css"],
       components: {
         Footer: "./src/components/Footer.astro",
