@@ -1,5 +1,5 @@
 ---
-title: "mugdoc-docs-site"
+title: "mugdoc"
 description: "Generate a documentation site from your project's README using Astro and Starlight."
 ---
 
@@ -13,7 +13,7 @@ Generate a documentation site from your project's README using Astro and Starlig
 
 ## How it works
 
-Clone this repo into your project, run `setup.sh`, and get a static documentation site. The setup script detects your project name and description, converts your README into the site content, copies referenced images, installs dependencies, and removes itself.
+Clone [mugdoc](https://github.com/skvggor/mugdoc) repo into your project, run `setup.sh`, and get a static documentation site. The setup script detects your project name and description, converts your README into the site content, copies referenced images, installs dependencies, and removes itself.
 
 The generated site is a single page with your README content, no sidebar, and a table of contents on the right. If you provide `--repo`, a floating "Star on GitHub" button will appear in the bottom-right corner.
 
