@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://mugdoc-docs-site.reposito.rio.br",
+  site: "https://mugdoc.reposito.rio.br",
   integrations: [
     starlight({
       title: "mugdoc-docs-site",
